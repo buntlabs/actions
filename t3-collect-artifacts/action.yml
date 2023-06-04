@@ -1,0 +1,15 @@
+name: T3 Demo
+description: Create a new AutoRun
+inputs:
+  api_key:
+    description: "T3 api key"
+    required: true
+  path:
+    description: "Collect all artifacts in this path"
+    required: false
+  github_run_attempt:
+    description: "Github Action's run attempt counter; leave empty to collect artifacts per-action and not per-run"
+    required: false
+runs:
+  using: "node16"
+  main: "index.js"

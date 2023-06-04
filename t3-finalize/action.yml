@@ -1,0 +1,15 @@
+name: T3 Demo Part 2
+description: Finalize the AutoRun
+inputs:
+  api_key:
+    description: "T3 api key"
+    required: true
+  github_run_attempt:
+    description: "Github Action's run attempt counter; leave empty to collect artifacts per-action and not per-run"
+    required: false
+  github_token:
+    description: "Github token for PR comments"
+    required: false
+runs:
+  using: "node16"
+  main: "index.js"

@@ -1,0 +1,15 @@
+name: T3 Demo
+description: Create a new AutoRun
+inputs:
+  api_key:
+    description: "T3 api key"
+    required: true
+  tags:
+    description: "T3 tags to create the Autorun with, e.g.: 'automated'"
+    required: false
+  github_run_attempt:
+    description: "Github Action's run attempt counter"
+    required: false
+runs:
+  using: "node16"
+  main: "index.js"
