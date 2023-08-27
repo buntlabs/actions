@@ -1,2 +1,3 @@
 # actions
-Shared Github actions
+
+Shared CI and Github actions, and t3-cli
