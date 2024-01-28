@@ -11,5 +11,5 @@ inputs:
     description: "Github Action's run attempt counter"
     required: false
 runs:
-  using: "node16"
+  using: "node20"
   main: "index.js"
